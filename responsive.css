@@ -1,0 +1,9 @@
+
+@media screen and (max-width:768px){
+.gallery-container{grid-template-columns:repeat(2,1fr);}
+}
+@media screen and (max-width:576px){
+.gallery-container{grid-template-columns:1fr;}
+.nav-links{display:none;}
+.hamburger{display:block;}
+}
